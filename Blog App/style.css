@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:londona;
+    src: url(Assets/Font/londona/Londona-reguler.otf);
+}
+@font-face {
+    font-family:poppinbold;
+    src: url(Assets/Font/Poppins-1/Poppins-Bold.ttf);
+}
+
+
+.main .header h1{
+    font-family: londona;
+    font-size: 30px;
+    color: #0d6efd;
+    font-style: italic;
+}
+
+.main .header a{
+    text-decoration: none;  
+}
+a:hover{
+    color: #fff;
+}
+.main .content h1{
+    text-align: center;
+    font-family:poppinbold;
+    color: #0d6efd;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main .blog .card{
+    margin-top: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.main .blog .card :hover{
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+}
+.loginleft{
+    height: 100vh;
+    background-color:#2C73EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginleft img{
+    background-size: cover;
+}
+
+.loginright{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginright .content h3{
+    font-weight: bold;
+    font-family:poppinbold;
+}
+.loginright .content p{
+    color: #8692A6;
+}
+.loginright .content label{
+    font-weight:normal;
+    color: #8692A6;
+
+}
+.loginright .content input{
+    margin-bottom: 30px;
+    width: 500px;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px #8692A6 ;
+    outline: none;
+}
+.loginright .content button{
+    background-color: #2C73EB;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.loginright .content .Login-form p{
+    text-align: center;
+    color: black;
+}
+.loginright .content .Login-form p a{
+    text-decoration: none;
+    color: #2C73EB;
+}
